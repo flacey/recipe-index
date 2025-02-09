@@ -1,41 +1,3 @@
-# Recipe Management Project
-
-This project is designed to manage recipes using markdown files. Each recipe will be stored in its own markdown file, organized by meal type and recipe name.
-
-## Directory Structure
-
-```
-/Recipes
-    /Breakfast
-    /Lunch
-    /Dinner
-    /Desserts
-    /Snacks
-```
-
-## Recipe File Format
-
-Each recipe markdown file should follow this format:
-
-```markdown
-# Recipe Name
-
-## Ingredients
-- Ingredient 1
-- Ingredient 2
-- Ingredient 3
-
-## Instructions
-1. Step 1
-2. Step 2
-3. Step 3
-
-## Notes
-- Note 1
-- Note 2
-```
-## Example 
-```markdown
 # Lemon-Blueberry Overnight Oats
 
 <img src="../../resources/images/Breakfast/lemon-blueberry-overnight-oats.png" alt="Lemon-Blueberry Overnight Oats" width="250"/>
@@ -75,13 +37,10 @@ Each recipe markdown file should follow this format:
 ## Nutrition Facts
 || Amount per Serving |
 |-----------------|------:|
-| Calories        | 288   |
-| Total Fat       | 5g    |
-| Carbohydrates   | 51g   |
-| Protein         | 12g   |
+| Calories        | 281   |
+| Total Fat       | 4g    |
+| Carbohydrates   | 48g   |
+| Protein         | 14g   |
 
 ## Source
 - Original recipe from [EatingWell](https://www.eatingwell.com/recipe/8062561/lemon-blueberry-overnight-oats/)
-```
-
-This structure will help keep your recipes organized and easy to manage.
